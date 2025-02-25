@@ -49,7 +49,7 @@ const Navbar = () => {
                   <Link to="/frozenCharry" onClick={() => setProductMenuOpen(false)}>Frozen Strawberry</Link>
                 </li>
                 <li className="hover:bg-gray-300 p-2 rounded cursor-pointer">
-                  <Link to="/frozenPulp" onClick={() => setProductMenuOpen(false)}>Frozen Respberry</Link>
+                  <Link to="/frozenPulp" onClick={() => setProductMenuOpen(false)}>Frozen Raspberry</Link>
                 </li>
                 
               </ul>
@@ -102,7 +102,7 @@ const Navbar = () => {
                 <Link to="/frozenCharry" onClick={() => {setIsOpen(false),setProductMenuOpen(false)}}> Frozen Strawberry</Link>
               </li>
               <li className="hover:bg-gray-300 p-2 rounded cursor-pointer">
-                <Link to="/frozenPulp"  onClick={() => {setIsOpen(false),setProductMenuOpen(false)}}>Frozen Respberry</Link>
+                <Link to="/frozenPulp"  onClick={() => {setIsOpen(false),setProductMenuOpen(false)}}>Frozen Raspberry</Link>
               </li>
               
             </ul>
