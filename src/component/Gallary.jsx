@@ -5,7 +5,7 @@ import juccyCharry from '../assets/juccyCharry.jpeg'
 import desert from "../assets/desert.jpeg"
 import natural from '../assets/natural.jpeg'
 import charry from '../assets/charry.jpeg'
-import fressPulp from '../assets/fressPulp.jpeg'
+import fressPulp from '../assets/FressPulp.jpeg'
 import ripen from '../assets/ripenCherry.jpeg'
 import naturalProduct from '../assets/naturalProduct.jpeg'
 import sweet from '../assets/sweet.jpeg'
