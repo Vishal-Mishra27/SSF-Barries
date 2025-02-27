@@ -21,7 +21,6 @@ function About() {
   },[])
   return (
     <>
-
       <motion.div
         className="max-w-6xl mx-auto text-center p-6 bg-white flex flex-col items-center justify-center"
         id="about"
@@ -32,8 +31,14 @@ function About() {
         <h3 className="font-semibold text-3xl pb-7 text-[#f5821f]">About Us</h3>
         <motion.div className="w-full md:w-3/4" variants={fadeInUp}>
           <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6">
-            Welcome to Strawberry & Raspberry! Innovating, inspiring, and delivering excellence
-            with creativity, quality, and customer satisfaction. <img src={RaspberryEmoji} alt="" className="inline h-10 w-10 mr-2" />
+            Welcome to Strawberry & Raspberry! Innovating, inspiring, and
+            delivering excellence with creativity, quality, and customer
+            satisfaction.{" "}
+            <img
+              src={RaspberryEmoji}
+              alt=""
+              className="inline h-10 w-10 mr-2"
+            />
           </h2>
         </motion.div>
 
@@ -42,16 +47,17 @@ function About() {
           variants={fadeInUp}
         >
           <p className="text-gray-600 leading-relaxed text-lg md:w-1/2 text-justify md:text-left">
-            Strawberry & Raspberry are small, vibrant fruits known for their juicy texture and
-            sweet-tart flavor. They come in various types, including sweet
-            Strawberry & Raspberry like Bing and Rainier, as well as tart varieties such as
-            Montmorency.
+            At SSF Farms we believe in delivering the highest quality fruits
+            that capture the natural sweetness and flavour of fresh raspberries
+            and strawberries.
             <br />
             <br />
-            Beyond their delightful taste, Strawberry & Raspberry have been linked to numerous
-            health benefits. They are known to promote better sleep due to their
-            natural melatonin content, which regulates the sleep cycle.
-           
+            At SSF Berries, we believe in delivering the highest quality frozen
+            fruits that capture the natural sweetness and flavour of fresh
+            raspberries & strawberries. Our fruits are carefully handpicked,
+            frozen at peak ripeness, and packed to preserve their rich taste and
+            nutritional value, ensuring that every bite is as fresh as the day
+            it was harvested.
           </p>
 
           <motion.div
@@ -86,27 +92,39 @@ function About() {
             variants={fadeInUp}
           >
             <h3 className="text-2xl font-semibold text-[#f5821f] mb-4 text-center">
-            🍓 Our Mission <img src={RaspberryEmoji} alt="" className="inline h-6 w-6 mr-2" />
+              🍓 Our Mission{" "}
+              <img
+                src={RaspberryEmoji}
+                alt=""
+                className="inline h-6 w-6 mr-2"
+              />
             </h3>
             <p className="text-gray-700 leading-relaxed text-justify">
-              The mission of Strawberry & Raspberry agriculture is to cultivate high-quality,
-              nutritious Strawberry & Raspberry through sustainable and innovative farming
+              "Our mission is to offer the finest frozen strawberries and
+              raspberries, sourced from the best farms and frozen at the peak of
+              freshness. We are committed to providing our customers with
+              wholesome, convenient, and versatile fruit options that support
+              healthy lifestyles. Through sustainable practices and a dedication
+              to quality, we aim to make healthy eating accessible and enjoyable
+              for everyone, anytime, anywhere."
+              <br /><br />
+               The mission of Strawberry &
+              Raspberry agriculture is to cultivate high-quality, nutritious
+              Strawberry & Raspberry through sustainable and innovative farming
               practices. By utilizing eco-friendly techniques, responsible water
-              management, and soil conservation methods, Strawberry & Raspberry agriculture aims
-              to enhance productivity while preserving natural resources.
-              Farmers strive to produce Strawberry & Raspberry that meet global standards,
-              ensuring freshness, rich flavor, and high nutritional value for
-              consumers worldwide.
+              management, and soil conservation methods, Strawberry & Raspberry
+              agriculture aims to enhance productivity while preserving natural
+              resources. Farmers strive to produce Strawberry & Raspberry that
+              meet global standards, ensuring freshness, rich flavor, and high
+              nutritional value for consumers worldwide.
               <br />
               <br />
-              Additionally, Strawberry & Raspberry agriculture is committed to supporting rural
-              economies by creating employment opportunities, promoting fair
-              trade, and fostering community development. Through advancements
-              in technology, research, and organic farming practices, the goal
-              is to improve yield efficiency while reducing environmental
-              impact. Ultimately, Strawberry & Raspberry agriculture seeks to balance economic
-              growth with ecological responsibility, ensuring a prosperous and
-              sustainable future for both farmers and consumers.
+              Additionally, Strawberry & Raspberry agriculture is committed to
+              supporting rural economies by creating employment opportunities,
+              promoting fair trade, and fostering community development. Through
+              advancements in technology, research, and organic farming
+              practices, the goal is to reducing
+              environmental impact.
             </p>
           </motion.div>
 
@@ -115,32 +133,43 @@ function About() {
             variants={fadeInUp}
           >
             <h3 className="text-2xl font-semibold text-[#f5821f] mb-4 text-center">
-            🍓 Our Vision <img src={RaspberryEmoji} alt="" className="inline h-6 w-6 mr-2" />
+              🍓 Our Vision{" "}
+              <img
+                src={RaspberryEmoji}
+                alt=""
+                className="inline h-6 w-6 mr-2"
+              />
             </h3>
             <p className="text-gray-700 leading-relaxed text-justify">
-              A Strawberry & Raspberry farmer envisions a future where high-quality, sustainably
-              grown Strawberry & Raspberry are accessible to consumers worldwide while
-              preserving the environment for future generations. Through the
-              adoption of advanced farming techniques, organic practices, and
-              climate-smart agriculture, the goal is to enhance productivity,
-              improve fruit quality, and minimize ecological impact. By
-              embracing innovation and research, Strawberry & Raspberry farmers aim to cultivate
-              resilient orchards that withstand environmental challenges and
-              changing market demands.
+              "To be the leading provider of high-quality, nutritious, and
+              delicious frozen berries, delivering fresh flavours and health
+              benefits to households worldwide, all year round."
+              <br />
+              <br />
+              A Strawberry & Raspberry farmer envisions a future where
+              high-quality, sustainably grown Strawberry & Raspberry are
+              accessible to consumers worldwide while preserving the environment
+              for future generations. Through the adoption of advanced farming
+              techniques, organic practices, and climate-smart agriculture, the
+              goal is to enhance productivity, improve fruit quality, and
+              minimize ecological impact. By embracing innovation and research,
+              Strawberry & Raspberry farmers aim to cultivate resilient orchards
+              that withstand environmental challenges and changing market
+              demands.
               <br />
               <br />
               Beyond production, the vision includes strengthening local
               economies by creating fair employment opportunities and promoting
-              ethical trade. Strawberry & Raspberry farmers aspire to build strong connections
-              with consumers by offering fresh, flavorful, and chemical-free
-              Strawberry & Raspberry. Through continuous learning, technological integration,
-              and eco-conscious farming, the vision is to establish a thriving,
-              sustainable Strawberry & Raspberry industry that benefits farmers.
+              ethical trade. Strawberry & Raspberry farmers aspire to build
+              strong connections with consumers by offering fresh, flavorful,
+              and chemical-free Strawberry & Raspberry. Through continuous
+              learning, technological integration, and eco-conscious farming,
+              the vision is to establish a thriving, sustainable Strawberry &
+              Raspberry industry that benefits farmers.
             </p>
           </motion.div>
         </div>
       </motion.div>
-
     </>
   );
 }

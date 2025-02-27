@@ -148,8 +148,14 @@ function Home() {
         <h3 className="font-semibold text-3xl pb-7 text-[#f5821f]">About Us</h3>
         <motion.div className="w-full md:w-3/4" variants={fadeInUp}>
           <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6">
-            Welcome to Strawberry & Raspberry! Innovating, inspiring, and delivering excellence
-            with creativity, quality, and customer satisfaction. <img src={RaspberryEmoji} alt="" className="inline h-10 w-10 mr-2" />
+            Welcome to Strawberry & Raspberry! Innovating, inspiring, and
+            delivering excellence with creativity, quality, and customer
+            satisfaction.{" "}
+            <img
+              src={RaspberryEmoji}
+              alt=""
+              className="inline h-10 w-10 mr-2"
+            />
           </h2>
         </motion.div>
 
@@ -158,15 +164,17 @@ function Home() {
           variants={fadeInUp}
         >
           <p className="text-gray-600 text-justify leading-relaxed  text-lg md:w-1/2  md:text-left">
-            Strawberry & Raspberry are small, vibrant fruits known for their juicy texture and
-            sweet-tart flavor. They come in various types, including sweet
-            Strawberry & Raspberry like Bing and Rainier, as well as tart varieties such as
-            Montmorency.
+            At SSF Farms we believe in delivering the highest quality fruits
+            that capture the natural sweetness and flavour of fresh raspberries
+            and strawberries.
             <br />
             <br />
-            Beyond their delightful taste, Strawberry & Raspberry have been linked to numerous
-            health benefits. They are known to promote better sleep due to their
-            natural melatonin content, which regulates the sleep cycle.
+            At SSF Berries, we believe in delivering the highest quality frozen
+            fruits that capture the natural sweetness and flavour of fresh
+            raspberries & strawberries. Our fruits are carefully handpicked,
+            frozen at peak ripeness, and packed to preserve their rich taste and
+            nutritional value, ensuring that every bite is as fresh as the day
+            it was harvested.
           </p>
 
           <motion.div

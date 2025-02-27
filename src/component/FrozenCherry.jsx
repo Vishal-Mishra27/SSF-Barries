@@ -17,8 +17,8 @@ function FrozenCherry() {
     <>
       <motion.div
         initial={{ opacity: 0, y: 50 }}
-        animate={{ opacity: 1, y: 0 }}  
-        transition={{ duration: 0.8, ease: "easeOut" }} 
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
         className="bg-white min-h-screen font-['Fredoka']"
       >
         <h1 className="text-5xl text-[#f5821f] py-6 text-center font-merriweather md:mt-8">
@@ -42,14 +42,22 @@ function FrozenCherry() {
             Why Choose Our Frozen Strawberry?
           </h2>
           <p className="mt-4 text-gray-600 text-justify">
-            Our frozen Strawberry are hand-picked at peak ripeness and flash-frozen
-            to preserve their freshness and flavor. Perfect for smoothies,
-            desserts, or a healthy snack!
+            <b>Pure & Sweet:</b> We offer whole, scooped and sliced
+            strawberries, perfect in many culinary creations, 100% Natural: No
+            added sugar, preservatives, or artificial flavors. Just pure
+            strawberry goodness. Strawberry variety we offer are Winter down,
+            Sweet sensation & Fortuna
           </p>
           <p className="mt-4 text-gray-600 text-justify">
-            Indulge in the rich, natural sweetness of our premium frozen Strawberry.
-            Carefully selected and frozen at peak ripeness, our Strawberry retain
-            their vibrant flavor, deep color, and essential nutrients.
+            Our frozen Strawberry are hand-picked at peak ripeness and
+            flash-frozen to preserve their freshness and flavor. Perfect for
+            smoothies, desserts, or a healthy snack!
+          </p>
+          <p className="mt-4 text-gray-600 text-justify">
+            Indulge in the rich, natural sweetness of our premium frozen
+            Strawberry. Carefully selected and frozen at peak ripeness, our
+            Strawberry retain their vibrant flavor, deep color, and essential
+            nutrients.
           </p>
 
           {/* List & Image */}
@@ -65,7 +73,6 @@ function FrozenCherry() {
                 <li>🍓 Free from artificial additives and colors</li>
               </ul>
             </div>
-           
           </div>
 
           <p className="mt-4 text-gray-600 text-justify">
@@ -75,7 +82,6 @@ function FrozenCherry() {
           </p>
         </div>
       </motion.div>
-
     </>
   );
 }

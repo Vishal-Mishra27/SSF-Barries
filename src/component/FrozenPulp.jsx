@@ -4,6 +4,7 @@ import juccyCharry from "../assets/juccyCharry.jpeg";
 import charry2 from "../assets/charry2.jpeg";
 import { useEffect } from "react";
 import RaspberryEmoji from "../assets/RaspberryEmoji.png"
+import { text } from "framer-motion/client";
 
 
 function FrozenPulp() {
@@ -15,9 +16,7 @@ function FrozenPulp() {
 
   return (
     <>
-
       <div className="bg-white min-h-screen font-['Fredoka']">
-        
         <motion.h1
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -52,9 +51,20 @@ function FrozenPulp() {
             Why Choose Our Frozen Raspberry?
           </h2>
           <p className="mt-4 text-gray-600 text-justify">
-            Our frozen fruit Raspberry is made from fresh, high-quality fruits that
-            are processed and frozen at peak ripeness. Perfect for smoothies,
-            desserts, beverages, and cooking!.
+            <b>Bold & Tangy:</b> our frozen raspberries make every recipe pop with flavour.
+            Versatile: Use them in smoothies, jams, sauces, ice-creams or just
+            as a snack straight from the freezer.
+          </p>
+          <p className="mt-4 text-gray-600 text-justify">
+            Our hand-picked raspberries are packed with antioxidants and
+            essential vitamins like vitamin B12, making them a healthy choice
+            for any meal.
+          </p>
+
+          <p className="mt-4 text-gray-600 text-justify">
+            Our frozen fruit Raspberry is made from fresh, high-quality fruits
+            that are processed and frozen at peak ripeness. Perfect for
+            smoothies, desserts, beverages, and cooking!.
           </p>
           <p className="mt-4 text-gray-600 text-justify">
             Sourced from the finest berries and carefully processed to preserve
@@ -65,7 +75,6 @@ function FrozenPulp() {
             frozen Raspberry delivers convenience without compromising quality.
           </p>
 
-
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
@@ -73,40 +82,66 @@ function FrozenPulp() {
             className="flex flex-col md:flex-row items-center mt-6"
           >
             <div className="md:w-1/2">
-  <ul className="space-y-2 text-gray-700 flex flex-col">
-    <li>
-      <img src={RaspberryEmoji} alt="" className="inline h-5 w-5 mr-2" />
-      100% Natural & No Preservatives
-    </li>
-    <li>
-      <img src={RaspberryEmoji} alt="" className="inline h-5 w-5 mr-2" />
-      Rich in Vitamins & Minerals
-    </li>
-    <li>
-      <img src={RaspberryEmoji} alt="" className="inline h-5 w-5 mr-2" />
-      Convenient & Ready to Use
-    </li>
-    <li>
-      <img src={RaspberryEmoji} alt="" className="inline h-5 w-5 mr-2" />
-      Perfect for Juices, Smoothies & Desserts
-    </li>
-    <li>
-      <img src={RaspberryEmoji} alt="" className="inline h-5 w-5 mr-2" />
-      Sustainably Sourced & Freshly Processed
-    </li>
-    <li>
-      <img src={RaspberryEmoji} alt="" className="inline h-5 w-5 mr-2" />
-      Available in Various Fruit Varieties
-    </li>
-    <li>
-      <img src={RaspberryEmoji} alt="" className="inline h-5 w-5 mr-2" />
-      Free from Artificial Additives & Colors
-    </li>
-  </ul>
-</div>
-
+              <ul className="space-y-2 text-gray-700 flex flex-col">
+                <li>
+                  <img
+                    src={RaspberryEmoji}
+                    alt=""
+                    className="inline h-5 w-5 mr-2"
+                  />
+                  100% Natural & No Preservatives
+                </li>
+                <li>
+                  <img
+                    src={RaspberryEmoji}
+                    alt=""
+                    className="inline h-5 w-5 mr-2"
+                  />
+                  Rich in Vitamins & Minerals
+                </li>
+                <li>
+                  <img
+                    src={RaspberryEmoji}
+                    alt=""
+                    className="inline h-5 w-5 mr-2"
+                  />
+                  Convenient & Ready to Use
+                </li>
+                <li>
+                  <img
+                    src={RaspberryEmoji}
+                    alt=""
+                    className="inline h-5 w-5 mr-2"
+                  />
+                  Perfect for Juices, Smoothies & Desserts
+                </li>
+                <li>
+                  <img
+                    src={RaspberryEmoji}
+                    alt=""
+                    className="inline h-5 w-5 mr-2"
+                  />
+                  Sustainably Sourced & Freshly Processed
+                </li>
+                <li>
+                  <img
+                    src={RaspberryEmoji}
+                    alt=""
+                    className="inline h-5 w-5 mr-2"
+                  />
+                  Available in Various Fruit Varieties
+                </li>
+                <li>
+                  <img
+                    src={RaspberryEmoji}
+                    alt=""
+                    className="inline h-5 w-5 mr-2"
+                  />
+                  Free from Artificial Additives & Colors
+                </li>
+              </ul>
+            </div>
           </motion.div>
-
 
           <motion.p
             initial={{ opacity: 0, y: 50 }}
@@ -114,8 +149,8 @@ function FrozenPulp() {
             transition={{ duration: 1, delay: 0.9 }}
             className="mt-4 text-gray-600"
           >
-            Enjoy the delicious taste of our frozen Raspberry all year round, knowing
-            that each batch is carefully processed to retain its natural
+            Enjoy the delicious taste of our frozen Raspberry all year round,
+            knowing that each batch is carefully processed to retain its natural
             sweetness and nutritional value.
           </motion.p>
           <motion.p
@@ -129,7 +164,6 @@ function FrozenPulp() {
           </motion.p>
         </motion.div>
       </div>
-
     </>
   );
 }
