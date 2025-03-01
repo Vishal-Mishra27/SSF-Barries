@@ -5,27 +5,29 @@ import Contact from "./component/Contact";
 import Navbar from "./component/Navbar";
 import About from "./component/About";
 import Footer from "./component/Footer";
-import Gallary from "./component/Gallary";
+import Gallary from "./component/Gallary.jsx";
 import FrozenCherry from "./component/FrozenCherry";
 import FrozenPulp from "./component/FrozenPulp";
-
+import Feedback from "./component/Feedback";
+import Services from "./component/Services";
+import RealFruit from "./component/RealFruit";
+import SSfFarm from "./component/SSfFarm";
+import RedBerry from "./component/RedBerry";
+import OffersStraberries from "./component/OffersStraberries";
+import OffersRaspberries from "./component/OffersRaspberries";
+import Weprovide from "./component/Weprovide";
+import Hero from "./component/Hero"
 function App() {
   return (
     <>
       <BrowserRouter>
-    <Navbar />
+   
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/about" element={<About />} />
           <Route path="/gallary" element={<Gallary />} />
-          <Route path="/frozenCharry" element={<FrozenCherry />} />
-          <Route path="/frozenPulp" element={<FrozenPulp />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </BrowserRouter>
-      
     </>
   );
 }
