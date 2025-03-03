@@ -181,7 +181,7 @@ const Navbar = () => {
           <a href="#product" className="hover:text-green-600">
             PRODUCT
           </a>
-          <Link to="/gallery" className="hover:text-green-600">
+          <Link to="/gallary" className="hover:text-green-600">
             GALLERY
           </Link>
           <a href="#contact" className="hover:text-green-600">
@@ -204,39 +204,19 @@ const Navbar = () => {
           </button>
         )}
         <div className="flex flex-col space-y-6 p-6 mt-10 bg-[#D9D9D9] text-green-800">
-          <a
-            href="#home"
-            className="hover:text-green-600"
-            onClick={() => setIsOpen(false)}
-          >
+          <a href="#home" className="hover:text-green-600">
             HOME
           </a>
-          <a
-            href="#about"
-            className="hover:text-green-600"
-            onClick={() => setIsOpen(false)}
-          >
+          <a href="#about" className="hover:text-green-600">
             ABOUT
           </a>
-          <a
-            href="#product"
-            className="hover:text-green-600"
-            onClick={() => setIsOpen(false)}
-          >
+          <a href="#product" className="hover:text-green-600">
             PRODUCT
           </a>
-          <Link
-            to="/gallery"
-            className="hover:text-green-600"
-            onClick={() => setIsOpen(false)}
-          >
+          <Link to="/gallary" className="hover:text-green-600">
             GALLERY
           </Link>
-          <a
-            href="#contact"
-            className="hover:text-green-600"
-            onClick={() => setIsOpen(false)}
-          >
+          <a href="#contact" className="hover:text-green-600">
             CONTACT
           </a>
         </div>
