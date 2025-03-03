@@ -51,9 +51,6 @@ const OffersRaspberries = () => {
       </div>
 
       {/* Description */}
-      <p className="text-green-900 font-bold text-lg sm:text-xl mt-8 px-4">
-        Kokanee varirty
-      </p>
     </section>
   );
 };
