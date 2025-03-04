@@ -18,7 +18,7 @@ const testimonials = [
       "https://img.freepik.com/premium-photo/memoji-happy-man-white-background-emoji_826801-6837.jpg",
     rating: 5,
     feedback:
-      "I love how convenient and fresh these frozen berries are! I don't have to worry about them going bad.",
+      "I make the most exquisite raspberry fillings and luscious sorbet with the juiciest, sun-kissed SSF Berries!",
   },
   {
     name: "Roma Vora",
@@ -27,7 +27,7 @@ const testimonials = [
       "https://img.freepik.com/premium-photo/memoji-happy-man-white-background-emoji_826801-6837.jpg",
     rating: 3,
     feedback:
-      "I love how convenient and fresh these frozen berries are! I don't have to worry about them going bad.",
+      "Nutritional powerhouse offering a range of health benefits packed with antioxidants.",
   },
 ];
 
@@ -66,7 +66,7 @@ const Feedback = () => {
               <p className="mt-3 italic text-justify">
                 "{testimonial.feedback}"
               </p>
-              <div className="flex items-center mt-4">
+              <div className="flex items-center mt-6 ">
                 <img
                   src={testimonial.image}
                   alt={testimonial.name}

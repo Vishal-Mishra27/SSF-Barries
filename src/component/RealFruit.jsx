@@ -1,5 +1,5 @@
 import React from "react";
-import fruitImage from "../assets/images/img4.jpg"; // Replace with your actual image path
+import fruitImage from "../assets/images/real.jpg"; // Replace with your actual image path
 
 const RealFruit = () => {
   return (

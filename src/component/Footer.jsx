@@ -37,25 +37,12 @@ function Footer () {
                 <HiLocationMarker className="text-3xl text-[#f5821f]" />
               </a>
               <a
-                href="#"
+                href="https://api.whatsapp.com/send?phone=918857069147"
+                target="_blank"
                 className="hover:text-green-500 transition-transform transform hover:scale-110"
                 aria-label="WhatsApp"
               >
                 <FaWhatsapp className="text-3xl" />
-              </a>
-              <a
-                href="#"
-                className="hover:text-pink-600 transition-transform transform hover:scale-110"
-                aria-label="Instagram"
-              >
-                <FaInstagram className="text-3xl" />
-              </a>
-              <a
-                href="#"
-                className="hover:text-blue-500 transition-transform transform hover:scale-110"
-                aria-label="LinkedIn"
-              >
-                <FaLinkedin className="text-3xl" />
               </a>
             </div>
           </div>
@@ -74,18 +61,22 @@ function Footer () {
               <li><a className="hover:text-[#f5831fdd] duration-200"><Link to="/gallary">🖼️ Gallery</Link></a></li>
               <li><a className="hover:text-[#f5831fdd] duration-200"><Link to="/contact">📞 Contact</Link></a></li> */}
               <li>
-                <a className="hover:text-[#f5831fdd] duration-200">🏠 Home</a>
+                <Link to="/" className="hover:text-green-600">
+                  🏠 HOME
+                </Link>
               </li>
               <li>
-                <a className="hover:text-[#f5831fdd] duration-200">ℹ️ About</a>
-              </li>
-              <li>
-                <a className="hover:text-[#f5831fdd] duration-200">
-                  🖼️ Gallery
+                <a className="hover:text-[#f5831fdd] duration-200" href="#">
+                  ℹ️ About
                 </a>
               </li>
               <li>
-                <a className="hover:text-[#f5831fdd] duration-200">
+                <Link to="/gallary" className="hover:text-green-600">
+                  🖼️ Gallery
+                </Link>
+              </li>
+              <li>
+                <a className="hover:text-[#f5831fdd] duration-200" href='#'>
                   📞 Contact
                 </a>
               </li>
@@ -139,11 +130,10 @@ function Footer () {
             </h2>
             <ul className="space-y-4 text-lg">
               <li>
-                <span className="font-medium">📞 Phone:</span> +91 7021786968 ,
-                8329652260
+                <span className="font-medium">📞 Phone:</span> +91 8857069147
               </li>
               <li>
-                <span className="font-medium">✉️ Email:</span>{" "}
+                <span className="font-medium">✉️ Email:</span>
                 ssfberries@gmail.com
               </li>
               {/* <li>

@@ -44,11 +44,11 @@ const OffersStraberries = () => {
         <div className="flex flex-col items-center space-y-4">
           <img
             src={scoopedImg}
-            alt="Scooped Strawberry"
+            alt="Strawberry"
             className="w-48 h-48 sm:w-48 sm:h-48 md:w-50 md:h-70 rounded-2xl object-cover md:rounded-[50%50%_50%_50%/_34%_34%_34%_34%]"
           />
           <h3 className="text-green-900 font-semibold text-lg sm:text-xl">
-            SCOOPED
+            Strawberries
           </h3>
         </div>
       </div>

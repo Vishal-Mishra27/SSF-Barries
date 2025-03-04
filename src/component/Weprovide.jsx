@@ -17,7 +17,7 @@ const Weprovide = () => {
             Naturally grown fresh & frozen
           </h2>
           <p className="text-[#2B5C00] text-md md:text-lg italic mt-2 md:mt-10 text-justify">
-            Our fruits are carefully handpickes, frozen at peak ripeness, and
+            Our fruits are carefully handpicked, frozen at peak ripeness, and
             packed to preserve their rich taste and nutritional value, ensuring
             that every bite is as fresh as the day it was harvested.
           </p>

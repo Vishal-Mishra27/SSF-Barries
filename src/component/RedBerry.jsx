@@ -1,5 +1,5 @@
 import React from "react";
-import berryImg from "../assets/images/img4.jpg"; // Replace with correct path
+import berryImg from "../assets/images/berry.jpg"; // Replace with correct path
 
 const RedBerry = () => {
   return (

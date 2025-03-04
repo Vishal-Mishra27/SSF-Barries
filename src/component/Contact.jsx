@@ -222,13 +222,13 @@ const Contact = () => {
           <br />
           Navi Mumbai, Ghansoli, Maharashtra, India – 400701
         </p>
-        <p>7021786968 | 8329652260</p>
+        <p>8857069147</p>
         <a href="mailto:ssfberries@gmail.com" className="text-blue-300">
           ssfberries@gmail.com
         </a>
         <div>
           <p className="font-semibold">Office Hours</p>
-          <p>Monday-Saturday: 10am – 6pm</p>
+          <p>Monday-Saturday: 10am – 5pm</p>
         </div>
       </div>
     </div>
