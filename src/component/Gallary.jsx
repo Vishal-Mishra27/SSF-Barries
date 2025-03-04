@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import FreshCharry from "../assets/freshCherry.jpeg";
 import juccyCharry from "../assets/juccyCharry.jpeg";
-import desert from "../assets/desert.jpeg";
+import desert from "../assets/desert2.jpg";
 import natural from "../assets/natural.jpeg";
 import charry from "../assets/charry.jpeg";
 import fressPulp from "../assets/FressPulp.jpeg";
@@ -24,15 +24,15 @@ const images = [
   },
   {
     src: juccyCharry,
-    text: "Juicy Strawberry & Raspberry",
+    text: " Ripe Juicy Raspberry",
   },
   {
     src: charry,
-    text: "Frozon Strawberry & Raspberry",
+    text: "Farm Fresh Strawberry",
   },
   {
     src: fressPulp,
-    text: "Fress Strawberry & Raspberry Pulp",
+    text: "Red Raspberry",
   },
   {
     src: natural,
@@ -53,7 +53,7 @@ const images = [
   },
   {
     src: ripen,
-    text: "Red and Ripen Strawberry & Raspberry",
+    text: "Sweet Strawberry",
   },
   {
     src: frozen,

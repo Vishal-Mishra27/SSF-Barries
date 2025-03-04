@@ -1,12 +1,15 @@
 
 import React from "react";
+import vender from "../assets/images/vender.jpg";
+import baker from "../assets/images/baker.jpg";
+import Dietician from "../assets/images/dentist.jpg";
+
 
 const testimonials = [
   {
     name: "Gopal Krishna Gupta",
     role: "Fruit Vendor",
-    image:
-      "https://img.freepik.com/premium-photo/memoji-happy-man-white-background-emoji_826801-6837.jpg",
+    image: vender,
     rating: 4,
     feedback:
       "I love how convenient and fresh these frozen berries are! I don't have to worry about them going bad.",
@@ -14,8 +17,7 @@ const testimonials = [
   {
     name: "Hari Lal Omkar",
     role: "Baker",
-    image:
-      "https://img.freepik.com/premium-photo/memoji-happy-man-white-background-emoji_826801-6837.jpg",
+    image: baker,
     rating: 5,
     feedback:
       "I make the most exquisite raspberry fillings and luscious sorbet with the juiciest, sun-kissed SSF Berries!",
@@ -23,9 +25,8 @@ const testimonials = [
   {
     name: "Roma Vora",
     role: "Dietician",
-    image:
-      "https://img.freepik.com/premium-photo/memoji-happy-man-white-background-emoji_826801-6837.jpg",
-    rating: 3,
+    image: Dietician,
+    rating: 5,
     feedback:
       "Nutritional powerhouse offering a range of health benefits packed with antioxidants.",
   },

@@ -1,7 +1,7 @@
 import React from "react";
 import wholeImg from "../assets/images/strr.png"; // Replace with correct path
 import slicedImg from "../assets/images/strr1.jpg"; // Replace with correct path
-import scoopedImg from "../assets/images/strr2.jpg"; // Replace with correct path
+import scoopedImg from "../assets/images/ssf-berry3.jpg"; // Replace with correct path
 
 const OffersStraberries = () => {
   return (
@@ -48,7 +48,7 @@ const OffersStraberries = () => {
             className="w-48 h-48 sm:w-48 sm:h-48 md:w-50 md:h-70 rounded-2xl object-cover md:rounded-[50%50%_50%_50%/_34%_34%_34%_34%]"
           />
           <h3 className="text-green-900 font-semibold text-lg sm:text-xl">
-            STRAWBERRIES
+            SCOOPED
           </h3>
         </div>
       </div>

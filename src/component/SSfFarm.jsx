@@ -1,5 +1,5 @@
 import React from "react";
-import img4 from "../assets/images/ssf-berry.jpg";
+import img4 from "../assets/images/ssf-berry2.jpg";
 
 const SSfFarm = () => {
   return (
