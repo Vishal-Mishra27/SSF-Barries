@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import FreshCharry from "../assets/freshCherry.jpeg";
 import juccyCharry from "../assets/juccyCharry.jpeg";
-import desert from "../assets/desert2.jpg";
+import desert from "../assets/bites.jpg";
 import natural from "../assets/natural.jpeg";
 import charry from "../assets/charry.jpeg";
 import fressPulp from "../assets/FressPulp.jpeg";
 import ripen from "../assets/ripenCherry.jpeg";
 import naturalProduct from "../assets/naturalProduct.jpeg";
-import sweet from "../assets/sweet.jpeg";
+import sweet from "../assets/desert3.jpg";
 import frozen from "../assets/frozen.jpeg";
 import organic from "../assets/oragnic.jpeg";
 import natureFriendly from "../assets/natureFriendly.jpeg";
@@ -40,7 +40,7 @@ const images = [
   },
   {
     src: desert,
-    text: "Delicious Desserts",
+    text: "Berrylicious Bites",
   },
 
   {
@@ -49,7 +49,7 @@ const images = [
   },
   {
     src: sweet,
-    text: "Sweet and Healthy",
+    text: "Fresh And Frozen Strawberry",
   },
   {
     src: ripen,

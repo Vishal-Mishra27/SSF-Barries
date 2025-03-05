@@ -1,7 +1,7 @@
 import React from "react";
 import wholeImg from "../assets/images/strr.png"; // Replace with correct path
 import slicedImg from "../assets/images/strr1.jpg"; // Replace with correct path
-import scoopedImg from "../assets/images/ssf-berry3.jpg"; // Replace with correct path
+import scoopedImg from "../assets/scooped.jpg"; // Replace with correct path
 
 const OffersStraberries = () => {
   return (
