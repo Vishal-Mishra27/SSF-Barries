@@ -3,7 +3,10 @@ import img4 from "../assets/images/ssf-berry2.jpg";
 
 const SSfFarm = () => {
   return (
-    <section className="relative flex flex-col md:flex-row items-stretch bg-[#BFD302] min-h-screen scroll-smooth" id="about" >
+    <section
+      className="relative flex flex-col md:flex-row items-stretch bg-[#BFD302] min-h-screen scroll-smooth"
+      id="about"
+    >
       {/* Left Section */}
       <div className="md:w-[60%] flex flex-col justify-between px-10 py-5">
         {/* Top Text */}
@@ -18,9 +21,9 @@ const SSfFarm = () => {
             SSF BERRIES
           </h1>
           <p className="text-green-800 text-lg text-justify md:text-justify">
-            Experience the taste of real European raspberries & <br />{" "}
-            Californian strawberries grown in Maharashtra & <br />
-            Rajasthan region.
+            Experience the authentic taste of European raspberries and
+            Californian strawberries, carefully grown in the rich soils of
+            Maharashtra and  Rajasthan.
           </p>
         </div>
 

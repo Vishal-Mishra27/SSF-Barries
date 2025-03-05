@@ -23,8 +23,11 @@ const RedBerry = () => {
         {/* Right: Content */}
         <div className=" md:px-4 w-full md:w-1/2 ">
           <p className="text-green-900 text-justify text-lg mt-2 md:mt-3 md:text-justify">
-            At SSF Berries, we believe in delivering the highest quality
-            frozen fruits that capture all the natural sweetness and flavors.
+            SSF BERRIES is a rapidly growing company, and we’re excited to
+            expand our distribution network. Our goal is to build strong,
+            long-lasting partnerships with businesses that share our commitment
+            to offering the finest frozen fruits that preserve the natural
+            sweetness and vibrant flavors.
           </p>
           <button className=" w-full md:w-auto mt-10 md:mt-30 bg-white text-green-900 font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-gray-100 transition">
             BOOK AN APPOINTMENT
