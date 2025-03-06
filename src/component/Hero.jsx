@@ -86,7 +86,7 @@ const CenteredImage = () => {
                     <img
                       src={slide.Logo}
                       alt=""
-                      className="absolute inset-0 m-auto h-60 w-60"
+                      className="absolute inset-0 m-auto h-80 w-100"
                     />
                   ) : null}
                   <motion.h2
