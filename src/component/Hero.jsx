@@ -21,7 +21,7 @@ const slides = [
     Logo: logo,
     title: "Fresh & Juicy Raspberry",
     description:
-      "Experience the burst of natural sweetness with our handpicked strawberries.",
+      "Experience the burst of natural sweetness with our handpicked raspberries.",
     image: Img1,
   },
   {
@@ -86,7 +86,7 @@ const CenteredImage = () => {
                     <img
                       src={slide.Logo}
                       alt=""
-                      className="absolute inset-0 m-auto h-60 w-55"
+                      className="absolute inset-0 m-auto h-60 w-60"
                     />
                   ) : null}
                   <motion.h2
