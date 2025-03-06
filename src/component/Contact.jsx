@@ -198,7 +198,10 @@ import Image from "../assets/images/strr.png";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col md:flex-row bg-green-900 text-white p-10" id="contact">
+    <div
+      className="flex flex-col md:flex-row bg-green-900 text-white p-10 scroll-smooth"
+      id="contact"
+    >
       {/* Left Side - Image */}
       <div className="w-full md:w-1/2 relative">
         <img
@@ -217,7 +220,7 @@ const Contact = () => {
         >
           Get in touch
         </h2>
-        <p >
+        <p>
           603 A Wing, Rupa Solitaire Building, Millennium Business Park,
           <br />
           Navi Mumbai, Ghansoli, Maharashtra, India – 400701

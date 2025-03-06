@@ -22,7 +22,7 @@ function About() {
   return (
     <>
       <motion.div
-        className="max-w-6xl mx-auto text-center p-6 bg-white flex flex-col items-center justify-center"
+        className="max-w-6xl mx-auto text-center p-6 bg-white flex flex-col items-center justify-center scroll-smooth"
         id="about"
         initial="hidden"
         animate="visible"
@@ -107,24 +107,24 @@ function About() {
               healthy lifestyles. Through sustainable practices and a dedication
               to quality, we aim to make healthy eating accessible and enjoyable
               for everyone, anytime, anywhere."
-              <br /><br />
-               The mission of Strawberry &
-              Raspberry agriculture is to cultivate high-quality, nutritious
-              Strawberry & Raspberry through sustainable and innovative farming
-              practices. By utilizing eco-friendly techniques, responsible water
-              management, and soil conservation methods, Strawberry & Raspberry
-              agriculture aims to enhance productivity while preserving natural
-              resources. Farmers strive to produce Strawberry & Raspberry that
-              meet global standards, ensuring freshness, rich flavor, and high
-              nutritional value for consumers worldwide.
+              <br />
+              <br />
+              The mission of Strawberry & Raspberry agriculture is to cultivate
+              high-quality, nutritious Strawberry & Raspberry through
+              sustainable and innovative farming practices. By utilizing
+              eco-friendly techniques, responsible water management, and soil
+              conservation methods, Strawberry & Raspberry agriculture aims to
+              enhance productivity while preserving natural resources. Farmers
+              strive to produce Strawberry & Raspberry that meet global
+              standards, ensuring freshness, rich flavor, and high nutritional
+              value for consumers worldwide.
               <br />
               <br />
               Additionally, Strawberry & Raspberry agriculture is committed to
               supporting rural economies by creating employment opportunities,
               promoting fair trade, and fostering community development. Through
               advancements in technology, research, and organic farming
-              practices, the goal is to reducing
-              environmental impact.
+              practices, the goal is to reducing environmental impact.
             </p>
           </motion.div>
 

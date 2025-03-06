@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import FreshCharry from "../assets/freshCherry.jpeg";
 import juccyCharry from "../assets/juccyCharry.jpeg";
-import desert from "../assets/bites.jpg";
+import desert from "../assets/bites2.jpg";
 import natural from "../assets/natural.jpeg";
 import charry from "../assets/charry.jpeg";
 import fressPulp from "../assets/FressPulp.jpeg";
@@ -61,7 +61,7 @@ const images = [
   },
   {
     src: organic,
-    text: "Organic Farming ",
+    text: "Scientific Farming ",
   },
   {
     src: natureFriendly,

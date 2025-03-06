@@ -29,9 +29,11 @@ const RedBerry = () => {
             to offering the finest frozen fruits that preserve the natural
             sweetness and vibrant flavors.
           </p>
-          <button className=" w-full md:w-auto mt-10 md:mt-30 bg-white text-green-900 font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-gray-100 transition">
-            BOOK AN APPOINTMENT
-          </button>
+          <a href="#contact">
+            <button className=" w-full md:w-auto mt-10 md:mt-30 bg-white text-green-900 font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-gray-100 transition">
+              BOOK AN APPOINTMENT
+            </button>
+          </a>
         </div>
       </div>
     </section>

@@ -3,7 +3,10 @@ import fruitImage from "../assets/images/strr3.jpg"; // Replace with your actual
 
 const Weprovide = () => {
   return (
-    <section className="bg-[#BFD302] min-h-screen flex items-center justify-center p-6 md:p-10">
+    <section
+      className="bg-[#BFD302] min-h-screen flex items-center justify-center p-6 md:p-10 scroll-smooth"
+      id="what"
+    >
       <div className="max-w-auto mx-auto grid md:grid-cols-2 items-center gap-10 md:gap-16">
         {/* Text Content */}
         <div className="text-left md:ml-3">

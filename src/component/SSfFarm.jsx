@@ -29,9 +29,11 @@ const SSfFarm = () => {
 
         {/* Bottom Button */}
         <div className="mt-auto">
-          <button className="px-6 py-3 bg-white text-green-900 rounded-lg text-lg font-semibold shadow-md hover:bg-gray-200 transition duration-300">
-            Learn More
-          </button>
+          <a href="#what">
+            <button className="px-6 py-3 bg-white text-green-900 rounded-lg text-lg font-semibold shadow-md hover:bg-gray-200 transition duration-300">
+              Learn More
+            </button>
+          </a>
         </div>
       </div>
 

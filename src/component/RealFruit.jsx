@@ -3,7 +3,7 @@ import fruitImage from "../assets/images/real.jpg"; // Replace with your actual 
 
 const RealFruit = () => {
   return (
-    <section className="bg-[#F8F3ED] min-h-screen flex items-center justify-center p-6 md:p-10">
+    <section className="bg-[#F8F3ED] min-h-screen flex items-center justify-center p-6 md:p-10" id="home">
       <div className="max-w-auto mx-auto grid md:grid-cols-2 items-center gap-10 md:gap-16">
         {/* Text Content */}
         <div className="text-left md:ml-3">
