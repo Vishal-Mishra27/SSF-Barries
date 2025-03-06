@@ -10,7 +10,7 @@ import charry from "../assets/charry.jpeg";
 import fressPulp from "../assets/FressPulp.jpeg";
 import ripen from "../assets/ripenCherry.jpeg";
 import naturalProduct from "../assets/naturalProduct.jpeg";
-import sweet from "../assets/desert3.jpg";
+import sweet from "../assets/desert4.jpg";
 import frozen from "../assets/frozen.jpeg";
 import organic from "../assets/oragnic.jpeg";
 import natureFriendly from "../assets/natureFriendly.jpeg";

@@ -4,11 +4,12 @@ import { HiLocationMarker } from 'react-icons/hi';
 import Logo from '../assets/ssfLogo.png'
 import { Link } from 'react-router-dom';
 import RaspberryImage from "../assets/RaspberryEmoji.png"
+import footerImg from "../assets/footerbg.png";
 // import { MdComputer } from 'react-icons/md';
 const FooterBg = {
-  backgroundRepeat: 'no-repeat',
-  backgroundSize: 'cover',
-  backgroundPosition: 'bottom center',
+  backgroundRepeat: "no-repeat",
+  backgroundSize: "cover",
+  backgroundPosition: "bottom center",
 };
 
 function Footer () {
@@ -76,7 +77,7 @@ function Footer () {
                 </Link>
               </li>
               <li>
-                <a className="hover:text-[#f5831fdd] duration-200" href='#'>
+                <a className="hover:text-[#f5831fdd] duration-200" href="#">
                   📞 Contact
                 </a>
               </li>
@@ -121,20 +122,29 @@ function Footer () {
           </div>
 
           {/* Contact Info */}
-          <div className="py-4 px-2">
+          <div className="py-4 px-2 ">
             <h2
               className="text-2xl font-semibold text-[#f5821f] mb-5"
               style={{ fontFamily: "'Cooper Black', serif" }}
             >
               Contact
             </h2>
-            <ul className="space-y-4 text-lg">
+            <ul className="space-y-4 text-lg gap-3">
               <li>
                 <span className="font-medium">📞 Phone:</span> +91 8857069147
               </li>
               <li>
                 <span className="font-medium">✉️ Email:</span>
                 ssfberries@gmail.com
+              </li>
+              <li className="flex items-center gap-0">
+                {/* <span className="font-medium">✉️ Email:</span>{" "}
+                ssfberries@gmail.com */}
+                <img
+                  src={footerImg} // Replace with your image variable or URL
+                  alt="Email Icon"
+                  className="w-[100%] h-50 sm:w-[1000%] sm:h-50 lg:w-[100%] lg:h-50"
+                />
               </li>
               {/* <li>
                 <span className="font-medium">📍 Address:</span>

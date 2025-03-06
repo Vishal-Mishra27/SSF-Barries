@@ -194,7 +194,7 @@
 
 
 import React from "react";
-import Image from "../assets/images/strr.png";
+import Image from "../assets/images/contact.jsx-removebg-preview.png";
 
 const Contact = () => {
   return (
