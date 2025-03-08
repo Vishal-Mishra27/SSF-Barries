@@ -3,7 +3,7 @@ import berryImg from "../assets/images/berry.jpg"; // Replace with correct path
 
 const RedBerry = () => {
   return (
-    <section className="bg-[#F7C948] min-h-screen flex items-center justify-center p-6 md:p-10">
+    <section className="bg-[#F7C948] min-h-screen flex items-center justify-center p-6 md:p-10" id="about">
       <div className="max-w-auto mx-auto flex flex-col md:flex-row items-center gap-10 md:gap-30">
         {/* Left: Image + Heading with Spacing */}
         <div className="w-full md:w-1/2 flex flex-col space-y-5 md:space-y-8">

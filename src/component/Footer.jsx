@@ -30,13 +30,13 @@ function Footer () {
               organic, and handpicked berries just for you!
             </p>
             <div className="flex items-center gap-4 mt-6">
-              <a
+              {/* <a
                 href="#"
                 className="hover:text-pink-500 transition-transform transform hover:scale-110"
                 aria-label="Location"
               >
                 <HiLocationMarker className="text-3xl text-[#f5821f]" />
-              </a>
+              </a> */}
               <a
                 href="https://api.whatsapp.com/send?phone=918857069147"
                 target="_blank"
@@ -67,7 +67,7 @@ function Footer () {
                 </Link>
               </li>
               <li>
-                <a className="hover:text-[#f5831fdd] duration-200" href="#">
+                <a className="hover:text-[#f5831fdd] duration-200" href="#about">
                   ℹ️ About
                 </a>
               </li>
@@ -77,7 +77,7 @@ function Footer () {
                 </Link>
               </li>
               <li>
-                <a className="hover:text-[#f5831fdd] duration-200" href="#">
+                <a className="hover:text-[#f5831fdd] duration-200" href="#contact">
                   📞 Contact
                 </a>
               </li>
@@ -94,28 +94,24 @@ function Footer () {
             </h2>
             <ul className="space-y-4 text-lg font-medium">
               <li>
-                <a href="#" className="hover:text-[#f5831fdd] duration-200">
+                <a
+                  href="#product"
+                  className="hover:text-[#f5831fdd] duration-200"
+                >
                   🍓 Strawberries
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#f5831fdd] duration-200">
+                <a
+                  href="#offerRaspberries"
+                  className="hover:text-[#f5831fdd] duration-200"
+                >
                   <img
                     src={RaspberryImage}
                     alt=""
                     className="inline h-5 w-5 mr-2"
                   />
                   Raspberries
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-[#f5831fdd] duration-200">
-                  🌱 Organic Berries
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-[#f5831fdd] duration-200">
-                  🥗 Seasonal Picks
                 </a>
               </li>
             </ul>

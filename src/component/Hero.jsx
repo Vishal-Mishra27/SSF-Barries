@@ -6,7 +6,7 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import Contact from "./Contact";
 import charry from "../assets/charry.jpeg";
 import charry2 from "../assets/charry2.jpeg";
-import Img1 from "../assets/Img1.jpeg"
+import Img1 from "../assets/slide4.jpg"
 import Img2 from "../assets/Img2.jpeg"
 import Img3 from "../assets/Img3.jpeg"
 import { useEffect } from "react";
@@ -19,14 +19,13 @@ import { Slice } from "lucide-react";
 const slides = [
   {
     Logo: logo,
-    title: "Fresh & Juicy Raspberry",
+    title: "Fresh & Juicy Raspberries",
     description:
       "Experience the burst of natural sweetness with our handpicked raspberries.",
     image: Img1,
   },
   {
     Logo: logo,
-
   },
 ];
 
@@ -79,14 +78,14 @@ const CenteredImage = () => {
                     <img
                       src={slide.Logo}
                       alt=""
-                      className="absolute top-14 right-4 h-20 w-24"
+                      className="absolute top-14 left-4 h-20 w-24"
                     />
                   ) : null}
                   {index === 1 ? (
                     <img
                       src={slide.Logo}
                       alt=""
-                      className="absolute inset-0 m-auto h-120 w-160"
+                      className="absolute inset-0 m-auto h-150 w-150"
                     />
                   ) : null}
                   <motion.h2

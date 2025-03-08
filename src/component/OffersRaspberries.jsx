@@ -5,7 +5,7 @@ import scoopedImg from "../assets/images/rasp2.jpg"; // Replace with correct pat
 
 const OffersRaspberries = () => {
   return (
-    <section className="bg-gradient-to-r from-pink-100 via-red-100 to-yellow-100 shadow-inner min-h-screen flex flex-col justify-center items-center text-center px-4">
+    <section className="bg-gradient-to-r from-pink-100 via-red-100 to-yellow-100 shadow-inner min-h-screen flex flex-col justify-center items-center text-center px-4" id="offerRaspberries">
       {/* Title */}
       <h2
         className="text-2xl sm:text-3xl md:text-4xl font-semibold text-green-900 md:mb-16 md:mt-7 mb-8"

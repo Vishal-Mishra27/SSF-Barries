@@ -5,7 +5,6 @@ const SSfFarm = () => {
   return (
     <section
       className="relative flex flex-col md:flex-row items-stretch bg-[#BFD302] min-h-screen scroll-smooth"
-      id="about"
     >
       {/* Left Section */}
       <div className="md:w-[60%] flex flex-col justify-between px-10 py-5">

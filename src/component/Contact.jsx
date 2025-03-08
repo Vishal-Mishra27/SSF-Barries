@@ -221,7 +221,8 @@ const Contact = () => {
           Get in touch
         </h2>
         <p>
-          603 A Wing, Rupa Solitaire Building, Millennium Business Park,
+          SSF BERRIES, 603 A Wing, Rupa Solitaire Building, Millennium Business
+          Park,
           <br />
           Navi Mumbai, Ghansoli, Maharashtra, India – 400701
         </p>
