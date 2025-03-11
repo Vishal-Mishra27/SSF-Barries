@@ -6,12 +6,12 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import Contact from "./Contact";
 import charry from "../assets/charry.jpeg";
 import charry2 from "../assets/charry2.jpeg";
-import Img1 from "../assets/slide4.jpg"
-import Img2 from "../assets/Img2.jpeg"
-import Img3 from "../assets/Img3.jpeg"
+import Img1 from "../assets/slide4.jpg";
+import Img2 from "../assets/Img2.jpeg";
+import Img3 from "../assets/Img3.jpeg";
 import { useEffect } from "react";
-import RaspberryEmoji from "../assets/RaspberryEmoji.png"
-import logo from "../assets/ssfLogo.png"
+import RaspberryEmoji from "../assets/RaspberryEmoji.png";
+import logo from "../assets/ssfLogo.png";
 import { useState } from "react";
 import { Slice } from "lucide-react";
 
@@ -33,7 +33,6 @@ const fadeInUp = {
   hidden: { opacity: 0, y: 50 }, // Start from 50px below
   visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } },
 };
-
 
 const CenteredImage = () => {
   //
@@ -85,7 +84,7 @@ const CenteredImage = () => {
                     <img
                       src={slide.Logo}
                       alt=""
-                      className="absolute inset-0 m-auto h-150 w-150"
+                      className="absolute inset-0 m-auto h-120 w-130 text-center"
                     />
                   ) : null}
                   <motion.h2

@@ -15,7 +15,7 @@ import frozen from "../assets/frozen.jpeg";
 import organic from "../assets/oragnic.jpeg";
 import natureFriendly from "../assets/natureFriendly.jpeg";
 import Navbar from "./Navbar.jsx";
-import Footer from "./Footer.jsx";
+import Footer1 from "./Footer1.jsx";
 
 const images = [
   {
@@ -202,7 +202,7 @@ function Gallery() {
           </div>
         </div>
       </div>
-      <Footer></Footer>
+      <Footer1></Footer1>
     </>
   );
 }
